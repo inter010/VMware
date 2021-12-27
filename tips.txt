@@ -1,0 +1,4 @@
+
+* VM웨어 OS버전(GuestID) 설정
+https://docs.vmware.com/en/VMware-HCX/4.3/hcx-user-guide/GUID-D4FFCBD6-9FEC-44E5-9E26-1BD0A2A81389.html
+
