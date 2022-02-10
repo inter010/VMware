@@ -1,5 +1,6 @@
 #vCenter접속
-$vcenter = "165.246.13.50"
+#$vcenter = "165.246.13.50"
+$vcenter = "vcenter.pvn.inha.ac.kr"
 $user = "administrator@vsphere.local"   
 $password = "INHA@cic10"
 Connect-VIServer -Server $vcenter -user $user -password $password -Protocol https
