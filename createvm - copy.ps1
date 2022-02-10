@@ -17,6 +17,7 @@ $esxi = "165.246.13.45"        #대상 호스트서버
 $ds = "INHA-DataStore_HP02"     #저장 datastore
 #>
 
+<#
 foreach ($cols in $list) {
 
     #신규 VM정보
@@ -33,9 +34,8 @@ foreach ($cols in $list) {
     Write-Host "$name VM Create Done..!!" -ForegroundColor DarkYellow
     
     Start-VM -VM $name
-    
 }
-
+#>
 
 #부팅시간 보장을 위한 sleep
 #Start-Sleep -s 120
